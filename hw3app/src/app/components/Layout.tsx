@@ -18,12 +18,6 @@ export function Layout() {
                 to="/"
                 className={`nav-link ${isActive("/") ? "active" : ""}`}
               >
-                Home
-              </Link>
-              <Link
-                to="/survey"
-                className={`nav-link ${isActive("/survey") ? "active" : ""}`}
-              >
                 Survey
               </Link>
               <Link

@@ -1,11 +1,11 @@
 from __future__ import annotations
 
+import os
 from typing import Dict, List, Optional
 
 from fastapi import FastAPI, Response
 from fastapi.middleware.cors import CORSMiddleware
-from sqlalchemy import Column
-from sqlalchemy.dialects.sqlite import JSON
+from sqlalchemy import JSON, Column
 from sqlmodel import Field, Session, SQLModel, create_engine, select
 
 
@@ -27,9 +27,13 @@ class Survey(SQLModel, table=True):
     recommendation: str = ""
 
 
-sqlite_file_name = "surveys.db"
-sqlite_url = f"sqlite:///./{sqlite_file_name}"
-engine = create_engine(sqlite_url, connect_args={"check_same_thread": False})
+DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./surveys.db")
+
+engine_kwargs = {"pool_pre_ping": True}
+if DATABASE_URL.startswith("sqlite"):
+    engine_kwargs["connect_args"] = {"check_same_thread": False}
+
+engine = create_engine(DATABASE_URL, **engine_kwargs)
 
 app = FastAPI(title="SWE645 Survey API")
 
