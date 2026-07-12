@@ -1,7 +1,7 @@
 # // Completed by Matt Courchaine and Satwik Tadikamalla
 # Thie file sets up the definition of the front end helm chart witht he name.
 apiVersion: v2
-name: hw3-frontend
+name: frontend
 description: Helm chart for SWE645 HW3 frontend (React + Nginx)
 type: application
 version: 0.1.0

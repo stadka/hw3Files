@@ -3,7 +3,7 @@
 import axios from "axios";
 
 export const surveysApi = axios.create({
-  baseURL: import.meta.env.VITE_BACKEND_URL ?? "http://127.0.0.1:8000",
+  baseURL: "http://ec2-100-57-252-87.compute-1.amazonaws.com:30001",
   headers: {
     "Content-Type": "application/json",
   },
