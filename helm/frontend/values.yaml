@@ -15,7 +15,7 @@ service:
   nodePort: 30002
 
 env:
-  BACKEND_URL: "http://ec2-100-57-252-87.compute-1.amazonaws.com:30001"
+  VITE_BACKEND_URL: "http://ec2-100-57-252-87.compute-1.amazonaws.com:30001"
 
 resources: {}
 

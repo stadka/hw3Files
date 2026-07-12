@@ -29,8 +29,8 @@ spec:
               containerPort: {{ .Values.service.targetPort }}
               protocol: TCP
           env:
-            - name: BACKEND_URL
-              value: {{ .Values.env.BACKEND_URL | quote }}
+            - name: VITE_BACKEND_URL
+              value: {{ .Values.env.VITE_BACKEND_URL | quote }}
           resources:
 {{ toYaml .Values.resources | indent 12 }}
       nodeSelector:
