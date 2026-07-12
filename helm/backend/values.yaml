@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: hw3-backend
+  repository: mcourch/hw3-backend
   tag: latest
   pullPolicy: IfNotPresent
 
