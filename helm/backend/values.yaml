@@ -9,12 +9,13 @@ image:
   pullPolicy: Always
 
 service:
-  type: ClusterIP
+  type: NodePort
   port: 8000
   targetPort: 8000
+  nodePort: 30001
 
 env:
-  DATABASE_URL: ""
+  DATABASE_URL: "database-1.cxx1vqto1cx8.us-east-1.rds.amazonaws.com"
 
 resources: {}
 
