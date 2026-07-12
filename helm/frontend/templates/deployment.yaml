@@ -28,6 +28,9 @@ spec:
             - name: http
               containerPort: {{ .Values.service.targetPort }}
               protocol: TCP
+          env:
+            - name: BACKEND_URL
+              value: {{ .Values.env.BACKEND_URL | quote }}
           resources:
 {{ toYaml .Values.resources | indent 12 }}
       nodeSelector:
