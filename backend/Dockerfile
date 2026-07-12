@@ -1,3 +1,6 @@
+# Completed by Matt Courchaine and Satwik Tadikamalla
+# Docker file for backend. defines the base image and builds it out to be deploed
+# and exposed on port 8080
 FROM python:3.10-slim
 
 WORKDIR /app

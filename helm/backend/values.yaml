@@ -1,3 +1,6 @@
+# // Completed by Matt Courchaine and Satwik Tadikamalla
+# values yaml defines info for setting up the pod as a deployment. These values 
+# are used throughout the rest of the helm chart
 replicaCount: 1
 
 image:

@@ -1,3 +1,6 @@
+# // Completed by Matt Courchaine and Satwik Tadikamalla
+# This file sets up ingress if enabled, and will define the paths to be able to send data
+# To this specific pod.
 {{- if .Values.ingress.enabled -}}
 apiVersion: networking.k8s.io/v1
 kind: Ingress

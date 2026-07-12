@@ -1,3 +1,6 @@
+// Completed by Matt Courchaine and Satwik Tadikamalla
+//This filesets up the survey page. It rends the html and tsx for any functionality to 
+//display the form data and save it to the MySQL database. 
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import { useSurveys } from "../context/SurveyContext";

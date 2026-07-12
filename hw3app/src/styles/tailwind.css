@@ -1,3 +1,5 @@
+/* // Completed by Matt Courchaine and Satwik Tadikamalla */
+/* This file contains the Tailwind CSS configuration and imports for the application. */
 @import 'tailwindcss' source(none);
 @source '../**/*.{js,ts,jsx,tsx}';
 
