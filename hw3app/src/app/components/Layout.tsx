@@ -1,3 +1,6 @@
+// Completed by Matt Courchaine and Satwik Tadikamalla
+//This renders teh layout of the application. For this app, it will show the Main survery page, and a 
+// page for the list of surverys. 
 import { Outlet, Link, useLocation } from "react-router";
 
 export function Layout() {

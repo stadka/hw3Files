@@ -1,3 +1,5 @@
+// Completed by Matt Courchaine and Satwik Tadikamalla
+// This component is a fallback for if an image does not load on the UI.
 import React, { useState } from 'react'
 
 const ERROR_IMG_SRC =

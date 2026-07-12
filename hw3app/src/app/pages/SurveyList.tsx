@@ -1,3 +1,6 @@
+// Completed by Matt Courchaine and Satwik Tadikamalla
+// This file is the page for the list of surveys. It displays the stored surveys
+// and also will allow users to edit or delete surveys. Saves updated data to existing DB.
 import { useState } from "react";
 import { useSurveys, Survey } from "../context/SurveyContext";
 import { Button } from "../components/ui/button";
