@@ -15,7 +15,7 @@ service:
   nodePort: 30001
 
 env:
-  DATABASE_URL: "database-1.cxx1vqto1cx8.us-east-1.rds.amazonaws.com"
+  DATABASE_URL: "postgresql+psycopg://admin:RDSpassword26@database-1.cxx1vqto1cx8.us-east-1.rds.amazonaws.com:5432/database-1?sslmode=require"
 
 resources: {}
 
