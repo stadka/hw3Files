@@ -15,7 +15,7 @@ service:
   nodePort: 30001
 
 env:
-  DATABASE_URL: "mysql+pymysql://admin:RDSpassword26@database-1.cxx1vqto1cx8.us-east-1.rds.amazonaws.com:3306/mysql"
+  DATABASE_URL: "mysql+pymysql://admin:RDSpassword26@database-1.cxx1vqto1cx8.us-east-1.rds.amazonaws.com:3306/hw3"
 
 resources: {}
 
