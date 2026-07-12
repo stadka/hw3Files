@@ -1,3 +1,5 @@
+# // Completed by Matt Courchaine and Satwik Tadikamalla
+# This file defines the name of the helm chart to be deployed for the backend. 
 apiVersion: v2
 name: hw3-backend
 description: Helm chart for SWE645 HW3 backend (FastAPI)

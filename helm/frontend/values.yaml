@@ -1,3 +1,6 @@
+# // Completed by Matt Courchaine and Satwik Tadikamalla
+# This file sets up the values for front end helm chart. 
+# These values are used throughout the rest of the front end helm chart to deploy the pod.
 replicaCount: 1
 
 image:

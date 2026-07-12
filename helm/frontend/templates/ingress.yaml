@@ -1,3 +1,5 @@
+# // Completed by Matt Courchaine and Satwik Tadikamalla
+# Defines ingress if enabled for how to access the front end pod specifically.
 {{- if .Values.ingress.enabled -}}
 apiVersion: networking.k8s.io/v1
 kind: Ingress

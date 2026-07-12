@@ -1,3 +1,6 @@
+# // Completed by Matt Courchaine and Satwik Tadikamalla
+# This file defines the deployment, which is the main part that lists everything related to
+# the image, service, and how the pod si ran.
 apiVersion: apps/v1
 kind: Deployment
 metadata:
