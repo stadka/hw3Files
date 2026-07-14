@@ -1,3 +1,6 @@
+// Completed by Matt Courchaine and Satwik Tadikamalla 
+// This file defines the Vite config for frontend app. 
+// It simply sets up the reach adn tailwind css plugins
 import { defineConfig } from 'vite'
 import path from 'path'
 import tailwindcss from '@tailwindcss/vite'

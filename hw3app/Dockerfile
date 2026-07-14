@@ -1,3 +1,6 @@
+# Completed by Matt Courchaine and Satwik Tadikamalla 
+# This file is the dockerfile for the front end. It uses a amd64 base image, loads in /app code,
+# and will ruun nginx to serve the react app.  It also copys in nginx.conf to setup the nginx server.
 FROM --platform=linux/amd64 node:20-alpine AS build
 
 WORKDIR /app
