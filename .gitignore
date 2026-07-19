@@ -1,2 +1,4 @@
+# /* // Completed by Matt Courchaine and Satwik Tadikamalla */
+# This file defines files/folders to ingore into git version control.
 node_modules/
 __pycache__/
